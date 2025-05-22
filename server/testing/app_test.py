@@ -6,7 +6,7 @@ from app import app
 from models import db, Bakery, BakedGood
 
 class TestApp:
-    '''Flask application in flask_app.py'''
+    '''Flask application in app.py'''
 
     def test_bakeries_route(self):
         '''has a resource available at "/bakeries".'''
